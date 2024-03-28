@@ -1,9 +1,13 @@
 curl -X POST \
-  http://localhost:7777/books \
+  http://localhost:8000/bapi/books \
   -d '{
-    "title": "The Great Gatsby",
-    "author": "F. Scott Fitzgerald"
-  }'
+    "title": "The Great Gatsby","author": "F. Scott Fitzgerald"
+  },
+  {
+    "title": "The Alchemist","author": "Paulo Coelho"
+  },
+  '
+
 
 
 
